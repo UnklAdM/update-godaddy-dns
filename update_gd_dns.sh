@@ -27,16 +27,20 @@
 # This script updates an a record at my-ip.your-godaddy-domain.com to your current ip address.
 # If the A record doesn't exist it is created.
 #
-#Enter vaules for all variables, Latest API call requries them.
 
-domain="your-godaddy-domain.com"            # your domain
-type="A"                                    # Record type A, CNAME, MX, etc.
-name="my-ip"                                # name of record to update. 
-ttl="600"                                   # Time to Live min value 600
-port="1"                                    # Required port, Min value 1
-weight="1"                                  # Required weight, Min value 1
-key="godaddy_developer_api_key"             # key for godaddy developer API - prod
-secret="godaddy_developer_api_secret"       # secret for godaddy developer API - prod
+#Enter vaules for all variables, Latest API call requries them.
+#
+#domain="your-godaddy-domain.com"            # your domain
+#type="A"                                    # Record type A, CNAME, MX, etc.
+#name="my-ip"                                # name of record to update. 
+#ttl="600"                                   # Time to Live min value 600
+#port="1"                                    # Required port, Min value 1
+#weight="1"                                  # Required weight, Min value 1
+#key="godaddy_developer_api_key"             # key for godaddy developer API - prod
+#secret="godaddy_developer_api_secret"       # secret for godaddy developer API - prod
+
+# include config file. Alternatively comment this out and edit above lines.
+. update_gd_dns_cfg.sh
 
 headers="Authorization: sso-key $key:$secret"
 # echo $headers
