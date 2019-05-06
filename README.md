@@ -33,7 +33,8 @@ See the source code for details.
 
 ### Files:
 ```
-update_gd_dns.sh                - Main script.
+update_gd_dns.sh                - Main script (bash).
+update_gd_dns.ps1		- Main script (PowerShell).
 update_gd_dns_cfg_sample.sh     - Sample config file.
 xUpdateDNS.sh                   - Simple wrapper makes it pretty.
 README.md                       - This file.
