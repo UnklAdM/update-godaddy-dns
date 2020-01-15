@@ -1,3 +1,4 @@
 update_gd_dns_cfg.sh
 update_gd_dns_cfg.ps1
 *~
+*.bak
