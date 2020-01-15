@@ -48,7 +48,7 @@ the variables directly to update_gd_dns.ps1.
 update_gd_dns.sh                - Main script (bash).
 update_gd_dns.ps1		            - Main script (PowerShell).
 update_gd_dns_cfg_sample.sh     - Sample config file (bash).
-update_godaddy_dns_sample.ps1   - Sample config file (PowerShell).
+update_gd_dns_cfg.sample.ps1    - Sample config file (PowerShell).
 xUpdateDNS.sh                   - Simple wrapper makes it pretty (bash).
 README.md                       - This file.
 ```
