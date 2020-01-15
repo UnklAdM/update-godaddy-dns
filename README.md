@@ -16,27 +16,40 @@ And with a little searching I've found this to probably be the original source t
 
 https://github.com/markafox/GoDaddy_Powershell_DDNS
 
-Needing to easily share this code with others, I've created my first GitHub project.
 
+### What happened next...
 
-So here is my somewhat modified version. Feel free to contribute.
+Needing to easily share this code with others, I created my first GitHub project.
 
-### Setup and installation:
+I needed this to run on Windows, so now there is a PowerShell version.
+
+This software is distributed as both a bash shell script and a PowerShell script.
+
+Feel free to contribute.
+
+### First do this...
 
 Go [Here](https://developer.godaddy.com/getstarted) to get your GoDaddy key and secret.
+
+### Setup and installation (bash):
 
 Rename the file update_gd_dns_cfg_sample.sh to update_gd_dns_cfg.sh then 
 edit the file for your desired configuration. Alternatively, you can add 
 the variables directly to update_gd_dns.sh. 
 
-See the source code for details.
+### Setup and installation (windows):
+
+Rename the file update_gd_dns_cfg_sample.ps1 to update_gd_dns_cfg.ps1 then 
+edit the file for your desired configuration. Alternatively, you can add 
+the variables directly to update_gd_dns.ps1. 
 
 ### Files:
 ```
 update_gd_dns.sh                - Main script (bash).
-update_gd_dns.ps1		- Main script (PowerShell).
-update_gd_dns_cfg_sample.sh     - Sample config file.
-xUpdateDNS.sh                   - Simple wrapper makes it pretty.
+update_gd_dns.ps1		            - Main script (PowerShell).
+update_gd_dns_cfg_sample.sh     - Sample config file (bash).
+update_godaddy_dns_sample.ps1   - Sample config file (PowerShell).
+xUpdateDNS.sh                   - Simple wrapper makes it pretty (bash).
 README.md                       - This file.
 ```
 
