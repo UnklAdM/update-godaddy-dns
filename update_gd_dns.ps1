@@ -17,7 +17,7 @@ Update the first 4 varriables with your information
 
 $domain="your-godaddy-domain.com"                           # your domain
 $type="A"                                    # Record type A, CNAME, MX, etc.
-$name="my-ip"                                   # name of record to update. Store number.
+$name="@"                                   # name of record to update. Store number.
 $ttl=600                                   # Time to Live min value 600
 $port=1                                    # Required port, Min value 1
 $weight=1                                  # Required weight, Min value 1
